@@ -1,0 +1,6 @@
+com\testAssignmentForAnIntern\model\Meaning.class
+com\testAssignmentForAnIntern\repository\MeaningsRepository.class
+com\testAssignmentForAnIntern\controller\MeaningsController.class
+com\testAssignmentForAnIntern\service\MeaningsService.class
+com\testAssignmentForAnIntern\service\MeaningsServiceImpl.class
+com\testAssignmentForAnIntern\ShaporenkoAndrewApplication.class

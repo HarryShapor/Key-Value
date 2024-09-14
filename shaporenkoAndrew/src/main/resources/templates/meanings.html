@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th=" http://www.thymeleaf.org ">
+<head>
+    <meta charset="UTF-8">
+    <title>Все значения</title>
+</head>
+<body>
+    <div th:each = "meaning : ${meaningArray}">
+        <a th:href="@{/meanings/get?key={keys}(keys=${meaning.getKey()})}"
+           th:text="${meaning.getKey()}">user</a>
+    </div>
+</body>
+</html>

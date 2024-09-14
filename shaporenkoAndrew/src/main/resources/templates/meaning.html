@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=" http://www.thymeleaf.org ">
+<head>
+    <meta charset="UTF-8">
+    <title>Значение по ключу</title>
+</head>
+<body>
+    <div>
+        <a th:text="${meaning.getKey()}">VALUE</a>
+        <a th:text="${meaning.getContent()}">VALUE</a>
+        <a th:text="${meaning.getTtl()}">VALUE</a>
+    </div>
+    <div>
+        <a th:href="@{/meanings}">Полный список</a>
+    </div>
+</body>
+</html>
